@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Rrowdies", sans-serif;
+}
+
+.nav,
+.nav-click {
+    height: 80px;
+    font-size: 1.5rem;
+}
+
+.logo h4 span {
+    font-family: "canveat", cursive;
+}
+
+
+.line {
+    background: white;
+    height: .2rem;
+    width: 3rem;
+    margin-bottom: .5rem;
+}
+
+.nav-items p {
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* .nav-items p::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    height: 1rem;
+    width: 4rem;
+} */
+
+.nav-items p:hover {
+    color: aqua;
+}
+
+
+
+@media (max-width:770px) {
+
+
+    .nav-items {
+        position: fixed;
+        right: -29rem;
+        top: 0px;
+        background: #000;
+        color: aqua;
+        width: 15rem;
+        height: 100vh;
+        transform: rotate(50deg);
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .nav-items p {
+        margin-left: 5rem;
+
+    }
+
+    .nav-click .nav-items {
+        transform: rotate(0deg);
+        right: 0rem;
+    }
+
+
+
+    .lines {
+        display: flex;
+        z-index: 2;
+    }
+
+    .line {
+        transition: 1s;
+    }
+
+    .nav-click .lines :nth-child(1) {
+        transform: rotate(-140deg);
+    }
+
+    .nav-click .lines :nth-child(2) {
+        transform: rotate(140deg);
+    }
+
+
+}
