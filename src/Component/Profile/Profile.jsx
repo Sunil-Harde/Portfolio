@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from '@mui/material'
 import Img_1 from './Image/img-1.jpg'
-import { Facebook, LinkedIn, Instagram } from '@mui/icons-material';
+import { Facebook, LinkedIn, Instagram, Save } from '@mui/icons-material';
+import LoadingButton from '@mui/lab/LoadingButton';
 import Line from '../../Sub_Component/Line/Border'
 import './Profile.css'
 
+
 function Profile() {
+
+    const [load, setLoad] = useState(false)
+
     return (
         <div className='container-flued min-vh-100'>
             <div className="profile row">
@@ -22,8 +27,8 @@ function Profile() {
                         <h4>Hello, <span>My Name Is</span></h4>
                     </div>
 
-                    <div className="name mb-4">
-                        <h1>SUNIL <span>HARDE</span></h1>
+                    <div className="name mb-4 ">
+                        <h1 className='shadow'>SUNIL <span>HARDE</span></h1>
                     </div>
 
                     <div className="info mb-4">
@@ -36,10 +41,11 @@ function Profile() {
 
                     <div className="cv">
                         {/* <Button variant='outlined'Group variant='outlined' className='Button variant='outlined'Group'> */}
-                        <Button variant='outlined' className='me-4'>Cv Download</Button>
+                        <LoadingButton loading={load} loadingPosition="end" onClick={() => setLoad(true)} endIcon={<Save />} className='me-5 px-3'>Resume</LoadingButton>
                         <Button variant='outlined' className='me-2'><Facebook /></Button>
                         <Button variant='outlined' className='me-2'><LinkedIn /></Button>
                         <Button variant='outlined' className='me-2'><Instagram /></Button>
+
                         {/* </Button'Group> */}
                     </div>
 
