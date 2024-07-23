@@ -1,0 +1,26 @@
+.border{
+    height: 29rem;
+    width: .2rem;
+    background: #bbb;
+    position: relative;
+}
+
+.border::after,.border::before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border: 0.2rem solid #bbb;
+    border-radius: 50%;
+    background: #2e3541;
+    position: absolute;
+}
+
+.border::before{
+    left: -.9rem;
+    top:-1rem;
+}
+
+.border::after{
+    left: -.9rem;
+    bottom:-1rem;
+}

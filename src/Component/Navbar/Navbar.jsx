@@ -8,7 +8,7 @@ function NavBar() {
 
     return (
         <div>
-            <div className='container '>
+            <div className='container-fluid '>
 
                 <div className=  {navClick ?"nav d-flex  align-items-center justify-content-between text-light" : " nav-click d-flex  align-items-center justify-content-between text-light"}>
                     <div className="logo d-flex">

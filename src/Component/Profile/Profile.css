@@ -1,0 +1,78 @@
+.profile{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.border1 {
+    position: absolute;
+    left: 6rem;
+}
+
+.name-title span,
+.name span,
+.info span {
+    color: aqua;
+}
+
+.name h1{
+    font-size: 50px;
+}
+
+Button {
+    color: aqua !important;
+    border: .1rem solid white !important;
+}
+
+Button:nth-child(1):hover {
+    transition: .8s;
+    border-radius: 1rem !important;
+    color: white !important;
+    border: .1rem solid aqua !important;
+}
+
+Button:nth-child(2):hover {
+    transition: .8s;
+    border-radius: 1rem !important;
+    color: rgb(47, 83, 240) !important;
+    border: .1rem solid aqua !important;
+}
+
+Button:nth-child(3):hover {
+    border-radius: 1rem !important;
+    transition: .8s;
+    color: rgb(47, 83, 240) !important;
+    border: .1rem solid aqua !important;
+}
+
+Button:nth-child(4):hover {
+    border-radius: 1rem !important;
+    transition: .8s;
+    color: red !important;
+    border: .1rem solid aqua !important;
+}
+
+.circle{
+    height: 350px;
+    width: 350px;
+    border: .2rem solid black !important;
+    border-radius: 50%;
+    /* background: #000; */
+    overflow: hidden;
+}
+
+img{
+    height: 430px;
+    width: 400px;
+    margin-left: -3rem;
+}
+
+.img-info{
+    position: absolute;
+    bottom: 10rem;
+    right: 17rem;
+    background: #000;
+    padding: 1rem 2rem .5rem;
+    text-align: center;
+    border: .2rem solid aqua;
+    border-radius: 10rem;
+}
