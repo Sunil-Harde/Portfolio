@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from '@mui/material'
-import Img_1 from './Image/img-1.jpg'
+import Img_1 from './Image/img-1.webp'
 import { Facebook, LinkedIn, Instagram, Save } from '@mui/icons-material';
 import LoadingButton from '@mui/lab/LoadingButton';
 import Line from '../../Sub_Component/Line/Border'
@@ -13,26 +13,26 @@ function Profile() {
 
     return (
         <div className='container-flued min-vh-100'>
-            <div className="profile row">
+            <div className="profile  row">
 
-                <div className="col-2 ">
+                <div className="col-1 ">
                     <div className='border1'>
                         <Line />
                     </div>
                 </div>
 
-                <div className="Profile-details col-6 text-light mt-4">
+                <div className="Profile-details shadow p-4 col-6 text-light mt-2">
 
                     <div className="name-title mb-4">
                         <h4>Hello, <span>My Name Is</span></h4>
                     </div>
 
                     <div className="name mb-4 ">
-                        <h1 className='shadow'>SUNIL <span>HARDE</span></h1>
+                        <h1 className=''>SUNIL <span>HARDE</span></h1>
                     </div>
 
                     <div className="info mb-4">
-                        <h4>I Am <span>WEB DEVELOPER </span></h4>
+                        <h4>I Am <span className=''>WEB DEVELOPER </span></h4>
                     </div>
 
                     <div className="about mb-5">
