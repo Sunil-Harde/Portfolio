@@ -3,7 +3,7 @@ const AllSkill = [
         "key": 1,
         "skillName": "HTML",
         "skillcardwidth": 90,
-        "skillDeatils": " with anrmed with an arsenal of technologies including HTML, CSS, JavaScript, React.js and, Bootstrap I embark on journeys through code to "
+        "skillDeatils": " with anrmed with anuding HTML, CSS, JavaScript, React.js and, Bootstrap I embark on journeys through code to "
     },
 
     {
