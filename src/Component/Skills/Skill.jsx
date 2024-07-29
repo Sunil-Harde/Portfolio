@@ -37,7 +37,6 @@ function Skill() {
                                 </div>
 
                                 <div className="line" style={{}}>
-
                                 </div>
                             </div>
                         ))}
