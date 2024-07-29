@@ -21,7 +21,7 @@ function Profile() {
                     </div>
                 </div>
 
-                <div className="Profile-details shadow p-4 col-6 text-light mt-2">
+                <div className="Profile-details shadow p-4 col-6 text-light ">
 
                     <div className="name-title mb-4">
                         <h4>Hello, <span>My Name Is</span></h4>
@@ -35,8 +35,8 @@ function Profile() {
                         <h4>I Am <span className=''>WEB DEVELOPER </span></h4>
                     </div>
 
-                    <div className="about mb-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae natus animi. Iure error est ducimus labore, hic, molestias alias nostrum quaerat assumenda suscipit fugit quidem accusamus quis nihil maiores?</p>
+                    <div className="about mb-4">
+                        <p> I'm Sunil, a passionate Front End Developer with an insatiable curiosity for crafting remarkable digital experiences. Armed with an arsenal of technologies including HTML, CSS, JavaScript, React.js and, Bootstrap I embark on journeys through code to bring visions to life.</p>
                     </div>
 
                     <div className="cv d-flex">

@@ -3,7 +3,7 @@ import './Border.css'
  
 function Border() {
   return (
-    <div className="border"></div>
+    <div className="border "></div>
 )
 }
 

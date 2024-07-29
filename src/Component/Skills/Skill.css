@@ -1,0 +1,51 @@
+
+.skills-heading h1 {
+    font-size: 50px;
+}
+
+.skills-heading h4 span {
+    color: aqua;
+}
+
+
+.skills .border1 {
+    position: absolute;
+    right: 4rem;
+}
+
+
+.skills-data .card-header h4 {
+    font-weight: bold !important;
+}
+
+.skills-data .card-header h4:nth-child(2){
+    font-family: "canveat", cursive;
+    color: aqua !important;
+}
+
+.skills-data .card .line{
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+
+.skills-data .card .line::after{
+    content: "";
+    position: absolute;
+    top: -.7rem;
+    left: 80%;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: .1rem solid white;
+    border-radius: 50%;
+    background: rgb(42, 46, 46);
+}
+
+.skills-data .card .line::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: .2rem;
+    width: 80%;
+    background: aqua;
+}

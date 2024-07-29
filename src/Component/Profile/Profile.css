@@ -3,7 +3,7 @@
     font-size: 20px;
 }
 
-.border1 {
+.profile .border1 {
     position: absolute;
     left: 6rem;
 }
@@ -25,26 +25,32 @@
 }
 
 
-Button {
+ Button  {
     color: aqua !important;
     border: .1rem solid white !important;
 }
 
-Button:nth-child(1):hover {
+.resume:hover {
+    border-radius: 1rem !important;
+    transition: .8s;
+    color:white !important;
+    border: .1rem solid aqua !important;
+}
+.cv-button Button:nth-child(1):hover {
     border-radius: 1rem !important;
     transition: .8s;
     color: red !important;
     border: .1rem solid aqua !important;
 }
 
-Button:nth-child(2):hover {
+.cv-button Button:nth-child(2):hover {
     transition: .8s;
     border-radius: 1rem !important;
     color: rgb(47, 83, 240) !important;
     border: .1rem solid aqua !important;
 }
 
-Button:nth-child(3):hover {
+.cv-button Button:nth-child(3):hover {
     border-radius: 1rem !important;
     transition: .8s;
     color: white !important;
@@ -129,7 +135,7 @@ Button:nth-child(3):hover {
 @media (max-width:970px) {
 
     .border1 {
-        display: none;
+        display: x;
     }
 
     .Profile-details {
@@ -152,7 +158,7 @@ Button:nth-child(3):hover {
     .cv{
         display: block !important;
     }
-    .cv-button{
+.cv-button Button {
         margin-top: 2rem;
     }
 
@@ -179,7 +185,7 @@ Button:nth-child(3):hover {
         font-size: 23px;
     }
 
-    .cv-button Button{
+ .cv-button Button {
         margin-bottom: 1rem;
     }
 }
@@ -197,8 +203,7 @@ Button:nth-child(3):hover {
     .name h1 {
         font-size: 20px;
     }
-
-    .cv-button Button{
+ .cv-button Button {
         margin-bottom: 1rem;
     }
 }
