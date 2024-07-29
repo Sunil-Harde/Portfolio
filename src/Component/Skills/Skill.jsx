@@ -23,7 +23,7 @@ function Skill() {
                     <FontAwesomeIcon icon={faBootstrap} className='m-4' size="3x" color="#563d7c" />
                 </div>
 
-                <div className="col-md-9 col-12 skills-data text-light d-flex align-items-center justify-content-center ">
+                <div className="col-md-10 col-lg-9 col-sm-12 col-12 skills-data text-light d-flex align-items-center justify-content-center ">
                     <div className="row">
                         {Skillsdata.map((data) => (
                             <div key={data.key} className='card col-6 col-md-4 col-lg-4  col-xl-3 border-0 my-4  bg-dark text-light '>
