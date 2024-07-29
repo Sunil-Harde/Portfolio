@@ -8,9 +8,10 @@ function NavBar() {
 
     return (
         <div>
-            <div className='container-fluid '>
+            <div className=''>
 
-                <div className=  {navClick ?"nav d-flex  align-items-center justify-content-between text-light" : " nav-click d-flex  align-items-center justify-content-between text-light"}>
+                <div className=  {navClick ?"nav shadow-sm d-flex fixed-top px-5 bg-dark align-items-center justify-content-between fixed-top text-light" : " nav-click shadow-sm d-flex fixed-top px-5 bg-dark align-items-center justify-content-between fixed-top text-light"}>
+                    
                     <div className="logo d-flex">
                         <h4>Web <span className='text-info'>Dev</span></h4>
 

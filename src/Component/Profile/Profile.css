@@ -1,4 +1,4 @@
-.profile{
+.profile {
     letter-spacing: 1px;
     font-size: 20px;
 }
@@ -8,7 +8,7 @@
     left: 6rem;
 }
 
-.Profile-details{
+.Profile-details {
     margin-left: 5rem;
 }
 
@@ -19,11 +19,11 @@
     font-family: "canveat", cursive;
 }
 
-.name h1{
+.name h1 {
     font-size: 50px;
     font-weight: bold;
-    
 }
+
 
 Button {
     color: aqua !important;
@@ -31,9 +31,9 @@ Button {
 }
 
 Button:nth-child(1):hover {
-    transition: .8s;
     border-radius: 1rem !important;
-    color: white !important;
+    transition: .8s;
+    color: red !important;
     border: .1rem solid aqua !important;
 }
 
@@ -47,18 +47,11 @@ Button:nth-child(2):hover {
 Button:nth-child(3):hover {
     border-radius: 1rem !important;
     transition: .8s;
-    color: rgb(47, 83, 240) !important;
+    color: white !important;
     border: .1rem solid aqua !important;
 }
 
-Button:nth-child(4):hover {
-    border-radius: 1rem !important;
-    transition: .8s;
-    color: red !important;
-    border: .1rem solid aqua !important;
-}
-
-.circle{
+.circle {
     height: 350px;
     width: 350px;
     border: .2rem solid black !important;
@@ -67,14 +60,14 @@ Button:nth-child(4):hover {
     overflow: hidden;
 }
 
-img{
+.circle img {
     height: 430px;
     width: 400px;
     margin-left: -1.9rem;
 }
 
-.img-info{
-    position:absolute;
+.img-info {
+    position: absolute;
     bottom: 10rem;
     right: 16rem;
     background: #000;
@@ -82,4 +75,130 @@ img{
     text-align: center;
     border: .2rem solid aqua;
     border-radius: 10rem;
+}
+
+
+@media (max-width:1220px) {
+
+    .profile-img {
+        margin-left: 5rem !important;
+    }
+
+    .circle {
+        height: 270px;
+        width: 270px;
+
+    }
+
+    .circle img {
+        height: 330px;
+        width: 300px;
+        margin-left: -1.9rem;
+    }
+
+    .img-info {
+        position: absolute;
+        bottom: 12rem;
+        right: 13rem;
+        background: #000;
+        padding: .5rem 1rem .1rem;
+        border: .2rem solid aqua;
+        border-radius: 10rem;
+    }
+
+}
+
+@media (max-width:1100px) {
+
+    .Profile-details {
+        margin-left: 10px 0px;
+        width: 85%;
+        max-width: 800px;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    .Profile-details {
+        margin-right: 15px;
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width:970px) {
+
+    .border1 {
+        display: none;
+    }
+
+    .Profile-details {
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:510px) {
+
+    .profile, .name-title h4 , .info span {
+        letter-spacing: .8px;
+        font-size: 18px;
+    }
+    .name h1 {
+        font-size: 40px;
+    }
+
+    .cv{
+        display: block !important;
+    }
+    .cv-button{
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width:390px) {
+
+    .profile, .name-title h4 , .info h4 , .info span {
+        letter-spacing: .8px;
+        font-size: 14px;
+    }
+    .name h1 {
+        font-size: 30px;
+    }
+
+}
+@media (max-width:315px) {
+
+    .profile, .name-title h4 , .info h4 , .info span {
+        letter-spacing: .8px;
+        font-size: 14px;
+    }
+    .name h1 {
+        font-size: 23px;
+    }
+
+    .cv-button Button{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:260px) {
+
+    .profile{
+        margin-left: 10px;
+        margin-right: -2rem;
+    }
+    .profile, .name-title h4 , .info h4 , .info span {
+        letter-spacing: .8px;
+        font-size: 12px;
+    }
+    .name h1 {
+        font-size: 20px;
+    }
+
+    .cv-button Button{
+        margin-bottom: 1rem;
+    }
 }

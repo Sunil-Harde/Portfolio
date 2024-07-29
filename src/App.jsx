@@ -6,16 +6,19 @@ import Profile from './Component/Profile/Profile.jsx';
 
 function App() {
   return (
-    <div className='bg-dark vh-min-100 container-fluid'>
-      <div className='mb-5 '>
+    <div className='bg-dark vh-min-100 main '>
+
+      <div className=' ' style={{marginTop:"3rem",paddingTop:"5rem"}}>
         <NavBar />
       </div>
 
-      <div className="">
-        <Profile />
-      </div>
+      <div className='container-fluid'>
 
-      <Api />
+        <div className="">
+          <Profile />
+        </div>
+
+      </div>
     </div>
   )
 }

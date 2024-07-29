@@ -6,6 +6,9 @@
     font-family: "Rrowdies", sans-serif;
 }
 
+
+/* Nvabar Start */
+
 .nav,
 .nav-click {
     height: 80px;
@@ -29,20 +32,12 @@
     transition: 1s;
 }
 
-/* .nav-items p::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #000;
-    height: 1rem;
-    width: 4rem;
-} */
 
 .nav-items p:hover {
     color: aqua;
 }
 
+/* Navbar End */
 
 
 @media (max-width:770px) {
@@ -92,6 +87,7 @@
 
 
 }
+
 /* 
 git commit -m "Navbar Addedt"
 git branch -M main

@@ -19,11 +19,11 @@ function Api() {
 
     return (
         <div className='container-fluid bg-dark min-vh-100' >
-            <div className='d-grid ' >
+            <div className='d-grid container-fluid ms-2' >
                 {movieList.map((image) => (
-                    <div key={image.id} className='img ' >
+                    <div key={image.id} className='img  d-flex align-items-center justify-content-center ' >
                         <img
-                            className=" mt-4 w-100 mb-5"
+                            className=" w-100 "
                             onClick={() => setSelectedImg(image.id)}
                             src={image.largeImageURL}
                             
@@ -36,7 +36,7 @@ function Api() {
             {selectedImg && (
                 <div className='d-flex flex-wrap ms-4 justify-content-center align-items-center'>
                     <img
-                        className="ms-5 mt-4 mb-5"
+                        className=""
                         src={movieList.find((img) => img.id === selectedImg).largeImageURL}
                         width="500px"
                         height="400px"

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button } from '@mui/material'
 import Img_1 from './Image/img-1.webp'
-import { Facebook, LinkedIn, Instagram, Save } from '@mui/icons-material';
+import { Instagram, LinkedIn, GitHub, Download } from '@mui/icons-material';
 import LoadingButton from '@mui/lab/LoadingButton';
 import Line from '../../Sub_Component/Line/Border'
 import './Profile.css'
@@ -15,7 +15,7 @@ function Profile() {
         <div className='container-flued min-vh-100'>
             <div className="profile  row">
 
-                <div className="col-1 ">
+                <div className="col-1">
                     <div className='border1'>
                         <Line />
                     </div>
@@ -39,14 +39,14 @@ function Profile() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae natus animi. Iure error est ducimus labore, hic, molestias alias nostrum quaerat assumenda suscipit fugit quidem accusamus quis nihil maiores?</p>
                     </div>
 
-                    <div className="cv">
-                        {/* <Button variant='outlined'Group variant='outlined' className='Button variant='outlined'Group'> */}
-                        <LoadingButton loading={load} loadingPosition="end" onClick={() => setLoad(true)} endIcon={<Save />} className='me-5 px-3'>Resume</LoadingButton>
-                        <Button variant='outlined' className='me-2'><Facebook /></Button>
-                        <Button variant='outlined' className='me-2'><LinkedIn /></Button>
-                        <Button variant='outlined' className='me-2'><Instagram /></Button>
+                    <div className="cv d-flex">
+                        <LoadingButton loading={load} loadingPosition="end" onClick={() => setLoad(true)} endIcon={<Download />} className='me-5 px-3 resume ' >Resume</LoadingButton>
+                        <div className='cv-button'>
+                            <Button variant='outlined' className='me-2'><Instagram /></Button>
+                            <Button variant='outlined' className='me-2'><LinkedIn /></Button>
+                            <Button variant='outlined' className='me-2'><GitHub /></Button>
+                        </div>
 
-                        {/* </Button'Group> */}
                     </div>
 
                 </div>
