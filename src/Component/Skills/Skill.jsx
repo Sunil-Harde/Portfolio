@@ -29,7 +29,7 @@ function Skill() {
                             <div key={data.key} className='card col-6 col-md-4 col-lg-4  col-xl-3 border-0 my-4  bg-dark text-light '>
                                 <div className='card-header d-flex justify-content-between align-items-center'>
                                     <h4>{data.skillName}</h4>
-                                    <h4>{data.skillProgress}</h4>
+                                    <h4>{data.skillcardwidth}%</h4>
                                 </div>
 
                                 <div className='card-body'>
