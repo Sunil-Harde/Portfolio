@@ -25,7 +25,7 @@
 }
 
 
- Button  {
+Button {
     color: aqua !important;
     border: .1rem solid white !important;
 }
@@ -33,9 +33,10 @@
 .resume:hover {
     border-radius: 1rem !important;
     transition: .8s;
-    color:white !important;
+    color: white !important;
     border: .1rem solid aqua !important;
 }
+
 .cv-button Button:nth-child(1):hover {
     border-radius: 1rem !important;
     transition: .8s;
@@ -135,7 +136,7 @@
 @media (max-width:970px) {
 
     .border1 {
-        display: x;
+        display: none;
     }
 
     .Profile-details {
@@ -146,19 +147,26 @@
 }
 
 @media (max-width:510px) {
+    .profile {
+        margin-top: -2rem;
+    }
 
-    .profile, .name-title h4 , .info span {
+    .profile,
+    .name-title h4,
+    .info span {
         letter-spacing: .8px;
         font-size: 18px;
     }
+
     .name h1 {
         font-size: 40px;
     }
 
-    .cv{
+    .cv {
         display: block !important;
     }
-.cv-button Button {
+
+    .cv-button Button {
         margin-top: 2rem;
     }
 
@@ -166,44 +174,59 @@
 
 @media (max-width:390px) {
 
-    .profile, .name-title h4 , .info h4 , .info span {
+    .profile,
+    .name-title h4,
+    .info h4,
+    .info span {
         letter-spacing: .8px;
         font-size: 14px;
     }
+
     .name h1 {
         font-size: 30px;
     }
 
 }
+
 @media (max-width:315px) {
 
-    .profile, .name-title h4 , .info h4 , .info span {
+    .profile,
+    .name-title h4,
+    .info h4,
+    .info span {
         letter-spacing: .8px;
         font-size: 14px;
     }
+
     .name h1 {
         font-size: 23px;
     }
 
- .cv-button Button {
+    .cv-button Button {
         margin-bottom: 1rem;
     }
 }
 
 @media (max-width:260px) {
 
-    .profile{
+    .profile {
         margin-left: 10px;
         margin-right: -2rem;
     }
-    .profile, .name-title h4 , .info h4 , .info span {
+
+    .profile,
+    .name-title h4,
+    .info h4,
+    .info span {
         letter-spacing: .8px;
         font-size: 12px;
     }
+
     .name h1 {
         font-size: 20px;
     }
- .cv-button Button {
+
+    .cv-button Button {
         margin-bottom: 1rem;
     }
 }

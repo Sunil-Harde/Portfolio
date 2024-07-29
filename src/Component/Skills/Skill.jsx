@@ -14,8 +14,8 @@ function Skill() {
                 <h4>My <span>Skills</span></h4>
             </div>
 
-            <div className="skills row">
-                <div className="skill-icon col-2 d-flex flex-column ">
+            <div className="skills row d-flex align-items-center justify-content-center">
+                <div className="skill-icon col-md-2 d-flex flex-md-column align-items-center justify-content-center ">
                     <FontAwesomeIcon icon={faHtml5} className='m-4' size="3x" color="#f06529" />
                     <FontAwesomeIcon icon={faCss3} className='m-4' size="3x" color="#2965f1" />
                     <FontAwesomeIcon icon={faJs} className='m-4' size="3x" color="#f0db4f" />
@@ -23,10 +23,10 @@ function Skill() {
                     <FontAwesomeIcon icon={faBootstrap} className='m-4' size="3x" color="#563d7c" />
                 </div>
 
-                <div className="col-9  skills-data text-light  ">
+                <div className="col-md-9 col-12 skills-data text-light d-flex align-items-center justify-content-center ">
                     <div className="row">
                         {Skillsdata.map((data) => (
-                            <div key={data.key} className='card col-4 border-0 my-2  bg-dark text-light '>
+                            <div key={data.key} className='card col-6 col-md-4 col-lg-4 border-0 my-2  bg-dark text-light '>
                                 <div className='card-header d-flex justify-content-between align-items-center'>
                                     <h4>{data.skillName}</h4>
                                     <h4>{data.skillProgress}</h4>

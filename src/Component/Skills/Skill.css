@@ -9,8 +9,7 @@
 
 
 .skills .border1 {
-    position: absolute;
-    right: 4rem;
+    right: 5rem;
 }
 
 
@@ -48,4 +47,27 @@
     height: .2rem;
     width: 80%;
     background: aqua;
+}
+
+
+@media (max-width:768px) {
+    .skills-data{
+    padding: 1rem 5rem;
+    }
+}
+
+@media (max-width:568px) {
+    .skills-data{
+    padding: 1rem 2rem;
+    }
+}
+
+@media (max-width:450px) {
+    .skills-data{
+    padding: 1rem 1rem;
+    }
+
+    .skill-icon:nth-child(all){
+    margin: 0 !important;
+    margin-left: .5rem !important;
 }
