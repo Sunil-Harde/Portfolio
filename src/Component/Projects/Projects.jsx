@@ -28,9 +28,12 @@ function Projects() {
                                     </div>
 
                                     <div className='card-body py-0'>
-                                        <img className='my-3' src={data.projectIMG} alt={data.projectName} />
+                                        <img className='my-2 rounded-3' src={data.projectIMG} alt={data.projectName} />
                                         <p>{data.projectDetails}</p>
-                                        <a href={data.projectLink} className=''>Visit Website</a>
+                                        <div className="d-flex justify-content-between mb-2">
+                                            <a href={data.projectLink} className=''>Visit Website</a>
+                                            <a href={data.projectCode} className=''>View Code</a>
+                                        </div>
                                     </div>
 
                                     <div className="card-footer">
