@@ -8,9 +8,9 @@ import './Skill.css'
 
 function Skill() {
     return (
-        <div className='container-fluid min-vh-100 skills-main' style={{ marginTop: "-11rem" }}>
-            <div className="skills-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
-                <h1 className='mb-3'>Skills</h1>
+        <div className='container-fluid  skills-main '>
+            <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
+                <h1 className=' my-3'>Skills</h1>
                 <h4>My <span>Skills</span></h4>
             </div>
 
@@ -44,7 +44,7 @@ function Skill() {
                 </div>
 
                 <div className="col-1">
-                    <div className='border1'>
+                    <div className='right-border1'>
                         <Border />
                     </div>
                 </div>

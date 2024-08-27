@@ -1,0 +1,20 @@
+.cards{
+    margin-left:5rem;
+}
+
+@media (max-width:770px) {
+    .cards{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:750px) {
+    .cards{
+        padding: 3rem;
+    }
+}
+@media (max-width:470px) {
+    .cards{
+        padding: 1rem;
+    }
+}

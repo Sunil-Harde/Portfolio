@@ -12,11 +12,11 @@ function Profile() {
     const [load, setLoad] = useState(false)
 
     return (
-        <div className='container-flued min-vh-100'>
+        <div className='container-flued '>
             <div className="profile  row">
 
                 <div className="col-1">
-                    <div className='border1'>
+                    <div className='left-border1'>
                         <Line />
                     </div>
                 </div>
@@ -36,15 +36,15 @@ function Profile() {
                     </div>
 
                     <div className="about mb-4">
-                        <p> I'm Sunil, a passionate Front End Developer with an insatiable curiosity for crafting remarkable digital experiences. Armed with an arsenal of technologies including HTML, CSS, JavaScript, React.js and, Bootstrap I embark on journeys through code to bring visions to life.</p>
+                        <p> I'm Sunil, a passionate Front End Developer with an insatiable curiosity for crafting remarkable digital experiences. Armed with an arsenal of technologies including HTML, CSS, JavaScript, React js and, Bootstrap. I embark on journeys through code to bring visions to life.</p>
                     </div>
 
                     <div className="cv d-flex">
                         <LoadingButton loading={load} loadingPosition="end" onClick={() => setLoad(true)} endIcon={<Download />} className='me-5 px-3 resume ' >Resume</LoadingButton>
                         <div className='cv-button'>
-                            <Button variant='outlined' className='me-2'><Instagram /></Button>
-                            <Button variant='outlined' className='me-2'><LinkedIn /></Button>
-                            <Button variant='outlined' className='me-2'><GitHub /></Button>
+                            <Button variant='outlined' className='me-2'><a href="https://www.linkedin.com/in/sunil-harde-82830b22b/"><LinkedIn /></a></Button>
+                            <Button variant='outlined' className='me-2'><a href="https://github.com/Sunil-Harde"><GitHub /></a></Button>
+                            <Button variant='outlined' className='me-2'><a href=""><Instagram /></a></Button>
                         </div>
 
                     </div>
