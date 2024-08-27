@@ -1,11 +1,11 @@
-.border{
+.lines1{
     height: 29rem;
     width: .2rem;
     background: #bbb;
     position: relative;
 }
 
-.border::after,.border::before {
+.lines1::after,.lines1::before {
     content: "";
     width: 2rem;
     height: 2rem;
@@ -15,12 +15,12 @@
     position: absolute;
 }
 
-.border::before{
+.lines1::before{
     left: -.9rem;
     top:-1rem;
 }
 
-.border::after{
+.lines1::after{
     left: -.9rem;
     bottom:-1rem;
 }

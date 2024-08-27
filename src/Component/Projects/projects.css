@@ -1,20 +1,42 @@
-.cards{
-    margin-left:5rem;
+.cards {
+    margin-left: 5rem;
+}
+
+.lag {
+    font-size: 14px;
+}
+
+.lag p {
+    max-width: 5rem;
+    min-width: 3rem;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+@media (max-width:997px) {
+
+    .cards {
+        margin-left: -10px !important;
+    }
+
 }
 
 @media (max-width:770px) {
-    .cards{
-        margin-left: 0;
+    .cards {
+        margin-left: 0px;
     }
 }
 
 @media (max-width:750px) {
-    .cards{
+    .cards {
         padding: 3rem;
     }
 }
+
 @media (max-width:470px) {
-    .cards{
+    .cards {
         padding: 1rem;
+        margin-left: 10px !important;
     }
 }

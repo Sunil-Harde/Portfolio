@@ -14,3 +14,10 @@
     position: absolute;
     left: 6rem;
 } 
+
+
+@media (max-width:1000px) {
+    .left-border1,.right-border1 {
+        display: none;
+    }
+}
