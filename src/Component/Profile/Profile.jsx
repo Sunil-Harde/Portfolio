@@ -53,7 +53,7 @@ function Profile() {
 
                 <div className="profile-img ms-5 mt-5 col-3">
                     <div className='circle' >
-                        <img src={Img_1} alt="" />
+                        <img src={Img_1} alt=""  />
                     </div>
 
                     <div className="img-info text-light">
