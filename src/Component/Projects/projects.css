@@ -36,14 +36,15 @@
 @media (max-width:997px) {
 
     .cards {
-        margin-left: -10px !important;
+        margin-left: -30px !important;
+        /* margin-right: -100px !important; */
     }
 
 }
 
-@media (max-width:770px) {
+@media (max-width:767px) {
     .cards {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 }
 
@@ -62,12 +63,6 @@
 @media (max-width:470px) {
     .cards {
         padding: 1rem;
-        margin-left: 10px !important;
-    }
-}
-@media (max-width:370px) {
-    .cards {
-        padding: 0rem;
-        margin-left: 0px !important;
+        /* margin-left: 10px !important; */
     }
 }

@@ -63,6 +63,10 @@
         margin: 0 !important;
         margin-left: 1rem !important;
     }
+
+    .card-header h4{
+        font-size: 19px ;
+    }
 }
 
 @media (max-width:320px) {
@@ -71,6 +75,6 @@
     }
     
     .card-header h4{
-        font-size: 18px;
+        font-size: 17px ;
     }
 }

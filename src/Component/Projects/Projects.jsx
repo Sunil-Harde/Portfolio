@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Border from '../../Sub_Component/Line/Border';
 import ProjectsData from './ProjectsData';
 
 import './projects.css';
 
 function Projects() {
+
+
     return (
-        <div className='container-fluid skills-main'>
+        <div className=' skills-main'>
             <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
                 <h1 className='my-3'>Projects</h1>
                 <h4>My <span>Projects</span></h4>
@@ -23,16 +25,23 @@ function Projects() {
                         {ProjectsData.map((data) => (
                             <div key={data.id} className="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
                                 <div className="card rounded-4 bg-dark">
-                                    <div className='card-header'>
-                                        <h3 className='mt-1 '>{data.projectName}</h3>
+                                    <div className='card-header d-flex justify-content-between align-items-center'>
+                                        <h4 className='mt-1 '>{data.projectName}</h4>
+                                        <p className={`border p-1 rounded-5 mt-3 text-center ${data.projectStatus == "Completed" ? "text-primary ": "text-danger"}   `} style={{ fontSize: "12px", width: "5rem" }}>{data.projectStatus}</p>
+
                                     </div>
 
                                     <div className='card-body py-0'>
                                         <img className='my-2 rounded-3' src={data.projectIMG} alt={data.projectName} />
+
+                                        
+                            
+
+
                                         <p>{data.projectDetails}</p>
-                                        <div className="d-flex justify-content-between mb-2">
-                                            <a href={data.projectLink} className=''>Visit Website</a>
-                                            <a href={data.projectCode} className=''>View Code</a>
+                                        <div className="d-flex justify-content-between mb-2" >
+                                            <a href={data.projectLink} className='' style={{ fontSize: "17px" }}>Visit Website</a>
+                                            <a href={data.projectCode} className='' style={{ fontSize: "17px" }}>View Code</a>
                                         </div>
                                     </div>
 
