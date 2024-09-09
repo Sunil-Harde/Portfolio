@@ -4,7 +4,7 @@ import NavBar from './Component/Navbar/Navbar.jsx'
 import Profile from './Component/Profile/Profile.jsx';
 import Skill from './Component/Skills/Skill.jsx';
 import Projects from './Component/Projects/Projects.jsx';
-
+import Contacts from './Component/Contacts/Contacts.jsx';
 
 function App() {
   return (
@@ -26,6 +26,10 @@ function App() {
 
         <div className="" >
           <Projects />
+        </div>
+
+        <div className="" >
+          <Contacts />
         </div>
 
       </div>

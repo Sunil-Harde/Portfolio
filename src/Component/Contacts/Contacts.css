@@ -1,0 +1,19 @@
+.icon {
+    position: relative;
+    border: 2px solid red;
+    border-radius: 50%;
+    background: #000000;
+    padding: 9px;
+}
+
+
+.icon::after {
+    content: '';
+    position: absolute;
+    width: 4rem;
+    height: 2px;
+    background: red;
+    top: 50%;
+    left: 5rem;
+    transform: translate(-50%, -50%);
+}

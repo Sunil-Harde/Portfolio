@@ -45,7 +45,7 @@
 
     .nav-items {
         position: fixed;
-        right: -29rem;
+        right: -39rem;
         top: 0px;
         background: #000;
         color: aqua;
@@ -54,11 +54,15 @@
         transform: rotate(50deg);
         transition: 1s;
         overflow: hidden;
+        align-items: start;
+        
+    }
+    .nav-items p:nth-child(1){
+        margin-top: 6rem;
     }
 
     .nav-items p {
         margin-left: 5rem;
-
     }
 
     .nav-click .nav-items {

@@ -16,8 +16,8 @@ function NavBar() {
                         <h4>Web <span className='text-info'>Dev</span></h4>
                     </div>
 
-                    <div className="nav-items text-bg-dark d-flex flex-column flex-md-row  align-items-md-center  justify-content-center gap-4 ">
-                        <p onClick={()=>window.scrollTo(0, 0)}>Home</p>
+                    <div className="nav-items text-bg-dark d-flex flex-column flex-md-row  align-items-md-center gap-4 ">
+                        <p onClick={()=>window.scrollTo(0, 0)} >Home</p>
                         <p onClick={()=>window.scrollTo(0, 550)}>Skill</p>
                         <p onClick={()=>window.scrollTo(0, 1220)}>Projects</p>
                         <p>Contact</p>

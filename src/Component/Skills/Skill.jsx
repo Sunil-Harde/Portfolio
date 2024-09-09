@@ -8,7 +8,7 @@ import './Skill.css'
 
 function Skill() {
     return (
-        <div className='container-fluid  skills-main '>
+        <div className='container-fluid skills-main '>
             <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
                 <h1 className=' my-3'>Skills</h1>
                 <h4>My <span>Skills</span></h4>
@@ -23,10 +23,10 @@ function Skill() {
                     <FontAwesomeIcon icon={faBootstrap} className='m-4' size="3x" color="#563d7c" />
                 </div>
 
-                <div className="col-md-10 col-lg-9 col-sm-12 col-12 skills-data text-light d-flex align-items-center justify-content-center ">
+                <div className="col-md-10 col-lg-9 col-sm-12 col-12  skills-data text-light d-flex align-items-center justify-content-center ">
                     <div className="row">
                         {Skillsdata.map((data) => (
-                            <div key={data.key} className='card col-6 col-md-4 col-lg-4  col-xl-3 border-0 my-4  bg-dark text-light '>
+                            <div key={data.key} className='card col-6 col-md-4 col-lg-4  col-xxl-2 border-0 my-4  bg-dark text-light '>
                                 <div className='card-header d-flex justify-content-between align-items-center'>
                                     <h4 className='me-1'>{data.skillName}</h4>
                                     <h4>{data.skillcardwidth}%</h4>
