@@ -22,7 +22,7 @@ function Contacts() {
                         <div className="contacts-icons d-flex align-items-center justify-content-center ">
                             <PersonPinCircle className="icon" />
                         </div>
-                        <div className=''>
+                        <div className=' deatail '>
                             <h4>Address</h4>
                             <p>Pune, Mharastra, India</p>
                         </div>
@@ -34,7 +34,7 @@ function Contacts() {
                         <div className="contacts-icons d-flex align-items-center justify-content-center ">
                             <MailOutline className="icon" />
                         </div>
-                        <div className=''>
+                        <div className=' deatail '>
                             <h4>Email</h4>
                             <p>sunilharde10@gmail.com</p>
                         </div>
@@ -45,7 +45,7 @@ function Contacts() {
                         <div className="contacts-icons d-flex align-items-center justify-content-center  ">
                             <LocalPhoneOutlined className="icon" /><br />
                         </div>
-                        <div>
+                        <div className=' deatail '>
                             <h4>Contact</h4>
                             <p>8308951286</p>
                         </div>
@@ -56,7 +56,7 @@ function Contacts() {
                         <div className="contacts-icons d-flex align-items-center justify-content-center ">
                             <WorkOutline className="icon" /><br />
                         </div>
-                        <div>
+                        <div className=' deatail '>
                             <h4>Experience</h4>
                             <p>Freshar</p>
                         </div>
