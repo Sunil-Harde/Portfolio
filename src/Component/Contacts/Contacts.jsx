@@ -1,6 +1,6 @@
 import React from 'react'
-import { PersonPinCircle, MailOutline, LocalPhoneOutlined, WorkOutline } from '@mui/icons-material';
-import { TextField } from '@mui/material'
+import { PersonPinCircle, MailOutline, LocalPhoneOutlined, WorkOutline, Send } from '@mui/icons-material';
+import { TextField, Button } from '@mui/material'
 import './Contacts.css'
 
 
@@ -14,30 +14,13 @@ function Contacts() {
                 <h4>Contact <span>Me</span></h4>
             </div>
 
-            <div className="contacts d-flex justify-content-between container-lg">
+            <div className="contacts d-flex justify-content-between gap-3">
 
-                <div className="details text-light ">
+                <div className="details text-light ms-5   ">
 
-                    <div className='d-flex justify-content-between me '>
-                        <div className="contacts-icons row">
-                            <div className="icon">
-                                <PersonPinCircle style={{ color: 'white', fontSize: 30 }} /><br />
-                            </div>
-                        </div>
-                        <div>
-                            <h4>Address</h4>
-                            <p>Pune, Mharastra, India</p>
-                        </div>
-                    </div>
-
-
-                    <div className=' d-flex justify-content-between'>
-
-                        <div className="contacts-icons  ">
-                            <div className="icon">
-                                <MailOutline style={{ color: 'white', fontSize: 30 }} /><br />
-                            </div>
-
+                    <div className=' d-flex mb-3'>
+                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                            <PersonPinCircle className="icon" />
                         </div>
                         <div className=''>
                             <h4>Address</h4>
@@ -46,42 +29,50 @@ function Contacts() {
                     </div>
 
 
-                    <div className='d-flex justify-content-between'>
-                        <div className="contacts-icons  ">
-                            <div className="icon">
+                    <div className=' d-flex mb-3'>
 
-                                <LocalPhoneOutlined style={{ color: 'white', fontSize: 30 }} /><br />
-                            </div>
-
+                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                            <MailOutline className="icon" />
                         </div>
-                        <div>
-                            <h4>Address</h4>
-                            <p>Pune, Mharastra, India</p>
+                        <div className=''>
+                            <h4>Email</h4>
+                            <p>sunilharde10@gmail.com</p>
                         </div>
                     </div>
 
 
-                    <div className='d-flex justify-content-between'>
-                        <div className="contacts-icons  ">
-                            <div className="icon">
-
-                                <WorkOutline style={{ color: 'white', fontSize: 30 }} /><br />
-                            </div>
-
+                    <div className='d-flex mb-3'>
+                        <div className="contacts-icons d-flex align-items-center justify-content-center  ">
+                            <LocalPhoneOutlined className="icon" /><br />
                         </div>
                         <div>
-                            <h4>Address</h4>
-                            <p>Pune, Mharastra, India</p>
+                            <h4>Contact</h4>
+                            <p>8308951286</p>
+                        </div>
+                    </div>
+
+
+                    <div className='d-flex mb-3'>
+                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                            <WorkOutline className="icon" /><br />
+                        </div>
+                        <div>
+                            <h4>Experience</h4>
+                            <p>Freshar</p>
                         </div>
                     </div>
 
                 </div>
 
-                <div className="inputs col-6 ">
-                    <TextField label="Name" color='primary' />
-                    <TextField label="Email" color='primary' /><br />
-                    <TextField label="Subject" color='primary' />
-                    <TextField label="Massege" color='primary' />
+                <div className="inputs d-flex flex-column gap-3 align-items-center   ">
+                    <TextField label="Name" className='textfield' variant="outlined" />
+                    <TextField label="Email" className='textfield' />
+                    <TextField label="Subject" className='textfield' />
+                    <TextField label="Massege" className='textfield' />
+
+                    <div className='contact-inputs-button'>
+                        <Button className='px-3' >send<Send className='contact-inputs-button-send-icon' /></Button>
+                    </div>
                 </div>
             </div>
         </div>

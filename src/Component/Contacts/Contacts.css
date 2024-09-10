@@ -1,19 +1,196 @@
-.icon {
+.contacts {
+    padding: 5rem 10rem;
+}
+
+.contacts-icons {
     position: relative;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 225, 255);
     border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    padding: 20px;
     background: #000000;
-    padding: 9px;
+    color: aliceblue;
+    margin-right: 8rem;
 }
 
 
-.icon::after {
+.contacts-icons::after {
     content: '';
     position: absolute;
     width: 4rem;
     height: 2px;
-    background: red;
+    background: rgb(0, 225, 255);
     top: 50%;
-    left: 5rem;
+    left: 4.5rem;
     transform: translate(-50%, -50%);
+}
+
+.details p {
+    margin-top: -.5rem;
+    font-size: 12px;
+    /* font-weight: lighter; */
+}
+
+.textfield .MuiInputLabel-root {
+    color: rgb(109, 109, 109) !important;
+}
+
+.textfield .MuiInputLabel-root:hover {
+    color: white !important;
+}
+
+.textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0, 225, 255) !important;
+}
+
+.textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0, 225, 255) !important;
+}
+
+.textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(0, 225, 255) !important;
+    /* Border color when focused */
+}
+
+.textfield .MuiInputBase-input {
+    color: white;
+    /* Input text color */
+}
+
+
+.inputs {
+    margin-right: 10rem;
+}
+
+.contact-inputs-button-send-icon {
+    transform: rotate(-30deg);
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+
+@media (max-width:1200px) {
+    .contacts {
+        padding: 5rem;
+    }
+
+    .inputs {
+        margin-right: 5rem;
+    }
+
+}
+
+@media (max-width:900px) {
+    .contacts {
+        padding: 3rem;
+    }
+
+    .inputs {
+        margin-right: 3rem;
+    }
+}
+
+@media (max-width:800px) {
+    .contacts {
+        padding: 5rem 1rem;
+    }
+
+    .details {
+        margin-left: 1rem !important;
+    }
+
+    .inputs {
+        margin-right: 1rem;
+    }
+
+    .contacts-icons {
+        margin-right: 6rem;
+
+    }
+
+    .contacts-icons::after {
+        width: 3rem;
+        left: 4rem;
+    }
+}
+
+@media (max-width:650px) {
+    .contacts {
+        padding: 3rem 0rem;
+    }
+
+    .details {
+        margin-left: 0rem !important;
+    }
+
+    .inputs {
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width:600px) {
+    .contacts {
+        flex-direction: column;
+    }
+
+    .details {
+        margin-left: 20% !important;
+    }
+
+    .contacts-icons {
+        padding: 15px;
+    }
+
+    .contacts-icons::after {
+        left: 3.5rem;
+    }
+
+    .icon {
+        font-size: 16px !important;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    .textfield {
+        width: 80%;
+    }
+
+}
+
+@media (max-width:430px) {
+
+    .details {
+        margin-left: 10% !important;
+    }
+
+}
+
+@media (max-width:360px) {
+
+    .details {
+        margin-left: 1% !important;
+    }
+
+    .contacts-icons {
+        margin-right: 5rem;
+    }
+}
+@media (max-width:315px) {
+
+    .details {
+        margin-left: 0% !important;
+    }
+
+    .contacts-icons {
+        margin-right: 4rem;
+    }
+
+    .contacts-icons::after {
+        width: 130%;
+        left: 170%;
+    }
+
 }
