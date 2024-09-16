@@ -19,12 +19,39 @@
     font-family: "canveat", cursive;
 }
 
+.nav {
+    transition: 1s;
+}
+
+.litemode .bg-dark {
+    background: #ffffff !important;
+    color: #0f0f0f;
+    transition: 1s;
+}
 
 .line {
     background: aqua;
     height: .2rem;
     width: 3rem;
     margin-bottom: .5rem;
+    transition: 1s;
+}
+
+.litemode h4 {
+    color: black;
+    transition: 1s;
+
+}
+
+.litemode .logo .text-info {
+    transition: 1.2s;
+    color: rgb(252, 53, 4) !important;
+}
+
+.nav-items {
+    transition: 1s;
+    margin-right: 3rem;
+    background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .nav-items p {
@@ -37,10 +64,85 @@
     color: aqua;
 }
 
+.litemode .nav-items p:hover {
+    color: rgb(252, 53, 4);
+}
+
+.darkmode-button {
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.darkmode {
+    border-radius: 2rem;
+    height: 1.5rem;
+    width: 3rem;
+    /* background: #000; */
+    cursor: pointer;
+    transition: 1s;
+}
+
+.litemode .darkmode {
+    transition: 1s;
+    background: #292828;
+    height: 1.5rem;
+    width: 3rem;
+    transition: 1s;
+}
+
+
+.darkmode::after {
+    content: "";
+    position: absolute;
+    height: .8rem;
+    width: .8rem;
+    border-radius: 2rem;
+    right: .1rem;
+    top: .3rem;
+    background: white;
+}
+
+.litemode .darkmode::after {
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.darkmode::before {
+    content: "";
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 2rem;
+    top: 7px;
+    right: .2rem;
+    background: #313131;
+}
+
+.litemode .darkmode::before {
+    background: rgb(255, 255, 255);
+    left: .3rem;
+    top: 7px;
+}
+
+
+/* 
+.darkmode-button::after{
+    content: "";
+    position: absolute;
+    background: #222222;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 2rem;
+    transform: translate(-50%,-50%);
+} */
+
+
+
 /* Navbar End */
 
 
-@media (max-width:770px) {
+@media (max-width:767px) {
 
 
     .nav-items {
@@ -55,9 +157,10 @@
         transition: 1s;
         overflow: hidden;
         align-items: start;
-        
+
     }
-    .nav-items p:nth-child(1){
+
+    .nav-items p:nth-child(1) {
         margin-top: 6rem;
     }
 
@@ -68,6 +171,10 @@
     .nav-click .nav-items {
         transform: rotate(0deg);
         right: 0rem;
+    }
+    .darkmode-button {
+        right: 8rem;
+        top: 1.4rem;
     }
 
 
@@ -90,9 +197,24 @@
     }
 
 
+
 }
 
-/* 
-git commit -m "Navbar Addedt"
-git branch -M main
-git push -u origin main */
+
+@media (max-width:400px) {
+    .nav {
+        /* position: absolute !important; */
+        left: -2.3rem !important;
+    }
+
+    .lines {
+        position: absolute !important;
+        /* left: -10rem !important; */
+        right: .5rem !important;
+    }
+
+    .darkmode-button {
+        right: 4rem;
+        top: 1.4rem;
+    }
+}

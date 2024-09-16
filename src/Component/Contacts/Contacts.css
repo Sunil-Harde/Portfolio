@@ -137,7 +137,7 @@
     }
 
     .details {
-        margin-left: 15% !important;
+        margin-left: 20% !important;
         
     }
 
@@ -169,19 +169,19 @@
 
 @media (max-width:525px) {
     .details {
-        margin-left: 8% !important;
+        margin-left: 15% !important;
         
     }
 
     .deatail{
-        margin-left: 15% !important;
+        margin-left: 13% !important;
     }
 
 }
 @media (max-width:450px) {
 
     .details {
-        margin-left: 7% !important;
+        margin-left: 10% !important;
     }
     .deatail{
         margin-left: 10% !important;
@@ -191,7 +191,7 @@
 @media (max-width:390px) {
 
     .details {
-        margin-left: 2% !important;
+        margin-left: 10% !important;
     }
     .deatail{
         margin-left: 0% !important;
@@ -202,7 +202,7 @@
 @media (max-width:360px) {
 
     .details {
-        margin-left: 5% !important;
+        margin-left: 10% !important;
     }
 
     .contacts-icons {
