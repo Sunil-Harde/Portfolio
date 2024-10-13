@@ -9,9 +9,9 @@ import './Skill.css'
 function Skill() {
     return (
         <div className='container-fluid skills-main '>
-            <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
-                <h1 className=' my-3' data-aos="fade-down" data-aos-duration="1600" data-aos-delay="250">Skills</h1>
-                <h4 data-aos="fade-down" data-aos-duration="1600" data-aos-delay="400"> My <span >Skills</span></h4>
+            <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4" data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
+                <h1 className=' my-3' >Skills</h1>
+                <h4 > My <span >Skills</span></h4>
             </div>
 
             <div className="skills row d-flex align-items-center justify-content-center">
