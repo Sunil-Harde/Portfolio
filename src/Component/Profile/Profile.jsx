@@ -39,7 +39,7 @@ function Profile() {
                         <p> I'm Sunil, a passionate Front End Developer with an insatiable curiosity for crafting remarkable digital experiences. Armed with an arsenal of technologies including HTML, CSS, JavaScript, React js and, Bootstrap. I embark on journeys through code to bring visions to life.</p>
                     </div>
 
-                    <div className="cv d-flex" data-aos="fade-up" data-aos-delay="1400">
+                    <div className="cv d-flex" data-aos="fade-up" data-aos-delay="1000">
                         <LoadingButton loading={load} loadingPosition="end" onClick={() => setLoad(true)} endIcon={<Download />} className='me-5 px-3 resume ' data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300">Resume</LoadingButton>
                         <div className='cv-button'>
                             <Button variant='outlined' className='me-2' data-aos="fade-up" data-aos-duration="1400" data-aos-delay="400"><a href="https://www.linkedin.com/in/sunil-harde-82830b22b/"><LinkedIn /></a></Button>
