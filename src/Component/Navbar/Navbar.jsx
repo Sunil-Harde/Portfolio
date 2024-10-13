@@ -32,12 +32,12 @@ function NavBar() {
                     </div>
 
 
-                    <div className={'darkmode-button position-fixed ' } data-aos="fade-down" data-aos-duration="1700">
+                    {/* <div className={'darkmode-button position-fixed ' } data-aos="fade-down" data-aos-duration="1700">
 
                         <button className="darkmode" onClick={() => darkmodeon()}>
 
                         </button>
-                    </div>
+                    </div> */}
 
 
                     <div className="lines d-flex d-md-none flex-column" onClick={() => setNavClick(!navClick)} data-aos="fade-down" data-aos-duration="1700">
