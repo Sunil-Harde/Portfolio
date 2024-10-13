@@ -9,7 +9,7 @@ function Contacts() {
     return (
         <div className='container-fluid skills-main '>
 
-            <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4">
+            <div className="main-heading d-flex flex-column align-items-center justify-content-center text-light mb-4" data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
                 <h1 className=' my-3'>Contacts</h1>
                 <h4>Contact <span>Me</span></h4>
             </div>
@@ -18,11 +18,11 @@ function Contacts() {
 
                 <div className="details text-light ms-5   ">
 
-                    <div className=' d-flex mb-3'>
-                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                    <div className=' d-flex mb-3' >
+                        <div className="contacts-icons d-flex align-items-center justify-content-center " data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
                             <PersonPinCircle className="icon" />
                         </div>
-                        <div className=' deatail '>
+                        <div className=' deatail ' data-aos="fade-down" data-aos-duration="1600" data-aos-delay="500">
                             <h4>Address</h4>
                             <p>Pune, Mharastra, India</p>
                         </div>
@@ -31,10 +31,10 @@ function Contacts() {
 
                     <div className=' d-flex mb-3'>
 
-                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                        <div className="contacts-icons d-flex align-items-center justify-content-center " data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
                             <MailOutline className="icon" />
                         </div>
-                        <div className=' deatail '>
+                        <div className=' deatail ' data-aos="fade-down" data-aos-duration="1600" data-aos-delay="500">
                             <h4>Email</h4>
                             <p>sunilharde10@gmail.com</p>
                         </div>
@@ -42,10 +42,10 @@ function Contacts() {
 
 
                     <div className='d-flex mb-3'>
-                        <div className="contacts-icons d-flex align-items-center justify-content-center  ">
+                        <div className="contacts-icons d-flex align-items-center justify-content-center  " data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
                             <LocalPhoneOutlined className="icon" /><br />
                         </div>
-                        <div className=' deatail '>
+                        <div className=' deatail ' data-aos="fade-down" data-aos-duration="1600" data-aos-delay="500">
                             <h4>Contact</h4>
                             <p>8308951286</p>
                         </div>
@@ -53,10 +53,10 @@ function Contacts() {
 
 
                     <div className='d-flex mb-3'>
-                        <div className="contacts-icons d-flex align-items-center justify-content-center ">
+                        <div className="contacts-icons d-flex align-items-center justify-content-center " data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
                             <WorkOutline className="icon" /><br />
                         </div>
-                        <div className=' deatail '>
+                        <div className=' deatail ' data-aos="fade-down" data-aos-duration="1600" data-aos-delay="500">
                             <h4>Experience</h4>
                             <p>Freshar</p>
                         </div>
@@ -65,12 +65,12 @@ function Contacts() {
                 </div>
 
                 <div className="inputs d-flex flex-column gap-3 align-items-center   ">
-                    <TextField label="Name" className='textfield' variant="outlined" />
-                    <TextField label="Email" className='textfield' />
-                    <TextField label="Subject" className='textfield' />
-                    <TextField label="Massege" className='textfield' />
+                    <TextField label="Name" className='textfield' variant="outlined" data-aos="fade-left" data-aos-duration="1600" data-aos-delay="700" />
+                    <TextField label="Email" className='textfield' data-aos="fade-left" data-aos-duration="1600" data-aos-delay="700" />
+                    <TextField label="Subject" className='textfield' data-aos="fade-left" data-aos-duration="1600" data-aos-delay="700" />
+                    <TextField label="Massege" className='textfield' data-aos="fade-left" data-aos-duration="1600" data-aos-delay="700" />
 
-                    <div className='contact-inputs-button'>
+                    <div className='contact-inputs-button' data-aos="fade-left" data-aos-duration="1600" data-aos-delay="800">
                         <Button className='px-3' >send<Send className='contact-inputs-button-send-icon' /></Button>
                     </div>
                 </div>

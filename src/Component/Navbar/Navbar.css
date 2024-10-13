@@ -168,10 +168,18 @@
         margin-left: 5rem;
     }
 
+    .nav-click .logo{
+
+        margin-left: .7rem;
+        margin-left: .7rem;
+    }
+
     .nav-click .nav-items {
         transform: rotate(0deg);
         right: 0rem;
+        margin: 0;
     }
+
     .darkmode-button {
         right: 8rem;
         top: 1.4rem;
