@@ -71,7 +71,7 @@ function Contacts() {
                     <TextField label="Massage" className='textfield' data-aos="fade-right" data-aos-duration="1600" data-aos-delay="700" />
 
                     <div className='contact-inputs-button' data-aos="fade-right" data-aos-duration="1600" data-aos-delay="800">
-                        <Button className='px-3' >send<Send className='contact-inputs-button-send-icon' /></Button>
+                        <Button className='px-3' >send<Send className='button-send' /></Button>
                     </div>
                 </div>
             </div>
