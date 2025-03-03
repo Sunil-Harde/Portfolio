@@ -10,7 +10,7 @@ function Contacts() {
         <div className='container-fluid skills-main '>
 
             <div className="main-heading d-flex flex-column align-items-center justify-content-center mb-4" data-aos="fade-down" data-aos-duration="1600" data-aos-delay="300">
-                <h1 className=' my-3'>Contacts</h1>
+                <h1 className=' my-3'>Contact</h1>
                 <h4>Contact <span>Me</span></h4>
             </div>
 
