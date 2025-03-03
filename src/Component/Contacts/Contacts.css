@@ -68,10 +68,15 @@
     margin-right: 10rem;
 }
 
-.contact-inputs-button-send-icon {
+.contact-inputs-button Button {
+    border-color: var(--primary-color) !important;
+    color: rgb(109, 109, 109) !important;
+}
+.button-send {
     transform: rotate(-30deg);
     margin-top: -5px;
     margin-left: 10px;
+    
 }
 
 
