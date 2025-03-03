@@ -1,7 +1,7 @@
 .lines1{
     height: 29rem;
     width: .2rem;
-    background: #bbb;
+    background: var(--text-color);
     position: relative;
 }
 
@@ -9,9 +9,9 @@
     content: "";
     width: 2rem;
     height: 2rem;
-    border: 0.2rem solid #bbb;
+    border: 0.2rem solid var(--text-color);
     border-radius: 50%;
-    background: #2e3541;
+    background: var(--secondary-color);
     position: absolute;
 }
 

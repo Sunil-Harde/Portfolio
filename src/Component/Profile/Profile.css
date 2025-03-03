@@ -4,18 +4,12 @@
 }
 
 .name-title h4, .name h1, .info h4, .img-info h4{
-    color: var(--text-color);
-    transform: 1s;
-    -webkit-transform: 1s;
-    -moz-transform: 1s;
-    -ms-transform: 1s;
-    -o-transform: 1s;
+    color: var(--text-color)
 }
 
 
 .Profile-details {
     margin-left: 5rem;
-    background: var(--secondary-color);
 }
 
 
@@ -24,11 +18,6 @@
 .info span {
     color: var(--primary-color);
     font-family: "canveat", cursive;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
 }
 
 .name h1 {
@@ -36,23 +25,23 @@
     font-weight: bold;
 }
 
-
+.cv-button Button, .resume{
+    border-color: var(--text-color) !important;
+}
 .cv-button Button a {
-    /* border: .1rem solid white !important; */
     color: var(--primary-color) !important;
 }
 
 .resume:hover {
     border-radius: .5rem !important;
-    transition: .8s;
     color: white !important;
     border: .1rem solid var(--primary-color) !important;
 }
 
 .cv-button Button:hover{
     border-radius: .5rem !important;
-    transition: .1s;
     border: .1rem solid var(--primary-color) !important;
+    
 }
 
 .cv-button Button:hover a {

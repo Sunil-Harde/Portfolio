@@ -5,11 +5,7 @@ const light_dark = () => {
 
     const [darkMode, setDarkMode] = useState(false)
     const [theme, setTheme] = useState("dark-mode")
-
-
-
-
-     document.body.className=theme
+    document.body.className=theme
 
 console.log(theme);
 

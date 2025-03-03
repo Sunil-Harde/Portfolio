@@ -15,7 +15,7 @@ function NavBar() {
                     <h4>Web <span className=''>Dev</span></h4>
                 </div>
 
-                <div className="nav-items bg-dark d-flex flex-column flex-md-row  align-items-md-center gap-4 ">
+                <div className="nav-items d-flex flex-column flex-md-row  align-items-md-center gap-4 ">
                     <p onClick={() => window.scrollTo(0, 0)} data-aos="fade-down" data-aos-duration="1200">Home</p>
                     <p onClick={() => window.scrollTo(0, 550)} data-aos="fade-down" data-aos-duration="1400">Skill</p>
                     <p onClick={() => window.scrollTo(0, 1220)} data-aos="fade-down" data-aos-duration="1600">Projects</p>
