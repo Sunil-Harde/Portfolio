@@ -13,18 +13,18 @@ import Footer from './Component/Footer/Footer.jsx';
 function App() {
 
 
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        easing: 'ease-in-out',
-      });
-    }, []);
-  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
 
   return (
-    <div className='bg-dark vh-min-100 ' >
+    <div className='main-Bg vh-min-100 ' >
 
-      <div className=' '  style={{ marginTop: "3rem", paddingTop: "5rem" }}>
+      <div className=' ' style={{ marginTop: "3rem", paddingTop: "5rem" }}>
         <NavBar />
       </div>
 

@@ -7,135 +7,64 @@
 }
 
 
-/* Nvabar Start */
+
+
+/* Navbar Start */
 
 .nav,
 .nav-click {
     height: 80px;
     font-size: 1.5rem;
+    background: var(--secondary-color);
+}
+
+.logo h4, p{
+    color: var(--text-color);
 }
 
 .logo h4 span {
     font-family: "canveat", cursive;
+    color: var(--primary-color);
 }
 
 .nav {
     transition: 1s;
 }
 
-.litemode .bg-dark {
-    background: #ffffff !important;
-    color: #0f0f0f;
-    transition: 1s;
-}
 
 .line {
-    background: aqua;
+    background: var(--primary-color);
     height: .2rem;
     width: 3rem;
     margin-bottom: .5rem;
     transition: 1s;
 }
 
-.litemode h4 {
-    color: black;
-    transition: 1s;
-
-}
-
-.litemode .logo .text-info {
-    transition: 1.2s;
-    color: rgb(252, 53, 4) !important;
-}
-
 .nav-items {
     transition: 1s;
     margin-right: 3rem;
-    background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    background: var(--secondary-color) !important;
 }
 
 .nav-items p {
     cursor: pointer;
-    transition: 1s;
+    transition:  2s all;
+    -webkit-transition:  2s all;
+    -moz-transition:  2s all;
+    -ms-transition:  2s all;
+    -o-transition:  2s all;
 }
 
 
 .nav-items p:hover {
-    color: aqua;
+    color: var(--primary-color);
 }
 
-.litemode .nav-items p:hover {
-    color: rgb(252, 53, 4);
-}
-
-.darkmode-button {
+.darkMode-button {
     right: 1rem;
     top: 1rem;
     cursor: pointer;
 }
-
-.darkmode {
-    border-radius: 2rem;
-    height: 1.5rem;
-    width: 3rem;
-    /* background: #000; */
-    cursor: pointer;
-    transition: 1s;
-}
-
-.litemode .darkmode {
-    transition: 1s;
-    background: #292828;
-    height: 1.5rem;
-    width: 3rem;
-    transition: 1s;
-}
-
-
-.darkmode::after {
-    content: "";
-    position: absolute;
-    height: .8rem;
-    width: .8rem;
-    border-radius: 2rem;
-    right: .1rem;
-    top: .3rem;
-    background: white;
-}
-
-.litemode .darkmode::after {
-    background: rgba(0, 0, 0, 0);
-}
-
-
-.darkmode::before {
-    content: "";
-    position: absolute;
-    height: 1rem;
-    width: 1rem;
-    border-radius: 2rem;
-    top: 7px;
-    right: .2rem;
-    background: #313131;
-}
-
-.litemode .darkmode::before {
-    background: rgb(255, 255, 255);
-    left: .3rem;
-    top: 7px;
-}
-
-
-/* 
-.darkmode-button::after{
-    content: "";
-    position: absolute;
-    background: #222222;
-    height: 1.2rem;
-    width: 1.2rem;
-    border-radius: 2rem;
-    transform: translate(-50%,-50%);
-} */
 
 
 
@@ -168,10 +97,9 @@
         margin-left: 5rem;
     }
 
-    .nav-click .logo{
-
-        margin-left: .7rem;
-        margin-left: .7rem;
+    .nav-click .logo {
+        margin-right: .7rem;
+        margin-left: 0rem;
     }
 
     .nav-click .nav-items {
@@ -180,7 +108,7 @@
         margin: 0;
     }
 
-    .darkmode-button {
+    .darkMode-button {
         right: 8rem;
         top: 1.4rem;
     }
@@ -221,7 +149,7 @@
         right: .5rem !important;
     }
 
-    .darkmode-button {
+    .darkMode-button {
         right: 4rem;
         top: 1.4rem;
     }

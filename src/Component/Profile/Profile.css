@@ -1,73 +1,65 @@
 .profile {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
+
+.name-title h4, .name h1, .info h4, .img-info h4{
+    color: var(--text-color);
+    transform: 1s;
+    -webkit-transform: 1s;
+    -moz-transform: 1s;
+    -ms-transform: 1s;
+    -o-transform: 1s;
+}
+
 
 .Profile-details {
     margin-left: 5rem;
+    background: var(--secondary-color);
 }
+
 
 .name-title span,
 .name span,
 .info span {
-    color: aqua;
+    color: var(--primary-color);
     font-family: "canveat", cursive;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 .name h1 {
-    font-size: 50px;
+    font-size: 47px;
     font-weight: bold;
 }
 
 
-Button  {
-    border: .1rem solid white !important;
-    color: aqua !important;
-}
-Button a {
-    color: aqua !important;
+.cv-button Button a {
+    /* border: .1rem solid white !important; */
+    color: var(--primary-color) !important;
 }
 
 .resume:hover {
     border-radius: .5rem !important;
     transition: .8s;
     color: white !important;
-    border: .1rem solid aqua !important;
+    border: .1rem solid var(--primary-color) !important;
 }
 
-.cv-button Button:nth-child(1):hover {
-    transition: .8s;
+.cv-button Button:hover{
     border-radius: .5rem !important;
-    border: .1rem solid aqua !important;
+    transition: .1s;
+    border: .1rem solid var(--primary-color) !important;
 }
 
-.cv-button button:nth-child(1):hover a{
-    transition: 1s;
-    color: rgb(47, 83, 240) !important;
-}
-
-.cv-button Button:nth-child(2):hover {
-    border-radius: .5rem !important;
-    transition: .8s;
-    border: .1rem solid aqua !important;
-}
-
-.cv-button button:nth-child(2):hover a{
-    transition: 1s;
-    color: white !important;
-}
-
-.cv-button Button:nth-child(3):hover {
-    border-radius: .5rem !important;
-    transition: .8s;
-    border: .1rem solid aqua !important;
-}
-
-
-.cv-button button:nth-child(3):hover a{
-    transition: 1s;
+.cv-button Button:hover a {
     color: red !important;
 }
+
+
 
 .circle {
     height: 350px;
@@ -88,10 +80,10 @@ Button a {
     position: absolute;
     bottom: 7rem;
     right: 12rem;
-    background: #000;
+    background: var(--secondary-color);
     padding: 1rem 2rem .5rem;
     text-align: center;
-    border: .2rem solid aqua;
+    border: .2rem solid var(--primary-color);
     border-radius: 10rem;
 }
 
@@ -120,7 +112,7 @@ Button a {
         right: 13rem;
         background: #000;
         padding: .5rem 1rem .1rem;
-        border: .2rem solid aqua;
+        border: .2rem solid var(--primary-color);
         border-radius: 10rem;
     }
 
@@ -237,4 +229,9 @@ Button a {
     .cv-button Button {
         margin-bottom: 1rem;
     }
+}
+
+Button a {
+    /* border: .1rem solid white !important; */
+    color: red !important;
 }

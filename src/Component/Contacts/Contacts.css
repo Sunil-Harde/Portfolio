@@ -4,13 +4,13 @@
 
 .contacts-icons {
     position: relative;
-    border: 2px solid rgb(0, 225, 255);
+    border: 2px solid var(--primary-color);
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
     padding: 20px;
-    background: #000000;
-    color: aliceblue;
+    /* background: #000000; */
+    color: var(--text-color);
     margin-right: 8rem;
 }
 
@@ -20,10 +20,14 @@
     position: absolute;
     width: 4rem;
     height: 2px;
-    background: rgb(0, 225, 255);
+    background: var(--primary-color);
     top: 50%;
     left: 4.5rem;
     transform: translate(-50%, -50%);
+}
+
+.detail h4 {
+    color: var(--text-color);
 }
 
 .details p {
@@ -42,20 +46,20 @@
 }
 
 .textfield .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
-    border-color: rgb(0, 225, 255) !important;
+    border-color: var(--primary-color) !important;
 }
 
 .textfield .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
-    border-color: rgb(0, 225, 255) !important;
+    border-color: var(--primary-color) !important;
 }
 
 .textfield .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
-    border-color: rgb(0, 225, 255) !important;
+    border-color: var(--primary-color) !important;
     /* Border color when focused */
 }
 
 .textfield .MuiInputBase-input {
-    color: white;
+    color: var(--text-color);
     /* Input text color */
 }
 
@@ -119,7 +123,7 @@
 @media (max-width:650px) {
     .contacts {
         padding: 3rem 0rem;
-        
+
     }
 
     .details {
@@ -138,10 +142,10 @@
 
     .details {
         margin-left: 20% !important;
-        
+
     }
 
-    .deatail{
+    .detail {
         margin-left: 15% !important;
     }
 
@@ -170,20 +174,22 @@
 @media (max-width:525px) {
     .details {
         margin-left: 15% !important;
-        
+
     }
 
-    .deatail{
+    .detail {
         margin-left: 13% !important;
     }
 
 }
+
 @media (max-width:450px) {
 
     .details {
         margin-left: 10% !important;
     }
-    .deatail{
+
+    .detail {
         margin-left: 10% !important;
     }
 }
@@ -193,7 +199,8 @@
     .details {
         margin-left: 10% !important;
     }
-    .deatail{
+
+    .detail {
         margin-left: 0% !important;
     }
 

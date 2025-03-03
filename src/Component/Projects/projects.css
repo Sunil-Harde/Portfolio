@@ -3,6 +3,14 @@
     padding: 0rem 5rem;
 }
 
+.card-header p {
+    border-color: var(--text-color) !important;
+}
+
+.card-header .text-info{
+    color: green !important;
+}
+
 .card {
     background: #212121;
     color: aliceblue;
@@ -10,7 +18,7 @@
 
 
 .card-body a {
-    color: aqua;
+    color: var(--primary-color);
     font-size: 20px;
     text-decoration: none;
 
@@ -28,7 +36,9 @@
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 5px;
+    border-color: var(--primary-color) !important;
 }
+
 
 @media (max-width:997px) {
     .cards {

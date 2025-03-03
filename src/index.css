@@ -1,30 +1,99 @@
-*{
+* {
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
 }
 
-.main-heading h1 {
-    font-size: 50px;
+.main-Bg{
+    background: var(--secondary-color);
 }
 
-.main-heading h4 span {
-    color: aqua;
-    font-family: "canveat", cursive;
-}
 
 .right-border1 {
     right: 5rem;
 }
 
- .left-border1 {
+.left-border1 {
     position: absolute;
     left: 6rem;
-} 
+}
+
+.footer{
+    background: var(--secondary-color);
+    color: var(--text-color) !important;
+}
 
 
 @media (max-width:1000px) {
-    .left-border1,.right-border1 {
+
+    .left-border1,
+    .right-border1 {
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.cv-button Button:nth-child(1):hover {
+    transition: .8s;
+    border-radius: .5rem !important;
+    border: .1rem solid var(--primary-color) !important;
+}
+
+.cv-button button:nth-child(1):hover a {
+    transition: 1s;
+    color: rgb(47, 83, 240) !important;
+}
+
+.cv-button Button:nth-child(2):hover {
+    border-radius: .5rem !important;
+    transition: .8s;
+    border: .1rem solid var(--primary-color) !important;
+}
+
+.cv-button button:nth-child(2):hover a {
+    transition: 1s;
+    color: white !important;
+}
+
+.cv-button Button:nth-child(3):hover {
+    border-radius: .5rem !important;
+    transition: .8s;
+    border: .1rem solid var(--primary-color) !important;
+}
+
+
+.cv-button button:nth-child(3):hover a {
+    transition: 1s;
+    color: red !important;
+}
+
+
+*/

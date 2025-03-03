@@ -3,6 +3,7 @@ import Movie from './IMG/MovieDb.png'
 import Todo from './IMG/Todo.png'
 import WeatherApp from './IMG/WeatherApp.png'
 import StopWatch from './IMG/StopWatch.png'
+import ImageSearch from './IMG/ImageSearch.png'
 
 const ProjectsData = [
     
@@ -48,6 +49,17 @@ const ProjectsData = [
         "usedLanguage": ["React / Js", "CSS"],
         "projectLink": "",
         "projectCode": "",
+    },
+
+    {
+        "id": 5,
+        "projectName": "ImageSearch",
+        "projectIMG": ImageSearch,
+        "projectStatus": "Completed",  
+        "projectDetails": "This is a simple Image Search Website.You can search and view any image",
+        "usedLanguage": ["Html", "CSS","Js"],
+        "projectLink": "https://nimble-creponne-b7ad02.netlify.app/",
+        "projectCode": "https://github.com/Sunil-Harde/ImageSearch",
     },
 ];
 
